@@ -1,12 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+	<title>Page Title</title>
+    <style>
+        nav, footer {
+            background-color: #111;
+            color: #fff;
+            padding: 5px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 5;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
+	</header>
+		<h1>Hi, My Name is Faisal</h1>
+		<p>I am learning to create a website</p>
+    </header>
+	
+	<nav>
+        <ul>
+            <li><a href="#">Introduction</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
-<h1>Hi, My name is faisal</h1>
-<p>i am learning to create a website</p>
+    <main>
+        <section>
+            <h2>A Section With Images</h2>
+            <img src="pic 1.jpg" alt="Image 1">
+            <img src="pic 2.jpg" alt="Image 2">
+        </section>
+
+        <section>
+            <h2>A Section With Contact Form</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Comment:</label>
+                <textarea id="message" name="message" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <section>
+            <h2>A Section With Videos</h2>
+            <video src="StarsTL.mp4" controls></video>
+        </section>
+    </main>
+
+    <footer>
+        <p>Please visit our page again.</p>
+    </footer>
+</body>
+</html>
 
 </body>
 </html>
